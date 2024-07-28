@@ -1,0 +1,110 @@
+.add-transaction-form {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Roboto';
+}
+
+.form-heading {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  margin: 30px 0px 20px 0px;
+  text-align: center;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 0px 0px;
+  padding: 9px 20px 9px 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.select-input {
+  border: 2px solid #000000;
+  border-radius: 8px;
+  cursor: pointer;
+  background: transparent;
+  padding: 9px 12px 9px 12px;
+  margin: 0px 0px 0px 0px;
+  width: 70%;
+  max-width: 200px;
+  font-weight: 400;
+  font-size: 16px;
+  outline: none;
+}
+
+.input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #000000;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  padding: 9px 12px 9px 12px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 400;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+  .select-input {
+    font-size: 18px;
+  }
+  .input {
+    font-size: 18px;
+  }
+}
+
+.form-buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.form-button {
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 9px 12px 9px 12px;
+  margin: 0px 10px 0px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+}
+
+.save-button {
+  background-color: green;
+}
+
+.cancel-button {
+  background-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
+}

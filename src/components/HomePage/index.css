@@ -1,0 +1,140 @@
+.home-page-bg-container {
+  width: 90%;
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  overflow-x: auto;
+}
+
+.page-heading {
+  width: 100%;
+  font-size: 23px;
+  text-align: center;
+  color: blue;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.manager-list-bg-container {
+  width: 800px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000000;
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 800px) {
+  .manager-list-bg-container {
+    width: 100%;
+  }
+}
+
+.manager-list-header {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  list-style-type: none;
+}
+
+.date-heading {
+  width: 20%;
+  word-wrap: break-word;
+}
+
+.description-heading {
+  width: 25%;
+}
+
+.type-heading {
+  width: 18%;
+}
+
+.balance-heading {
+  width: 19%;
+}
+
+.add-transaction-button {
+  background-color: #00bbff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px 9px 15px;
+  margin: 20px 0px 20px 0px;
+  font-weight: 500;
+  align-self: flex-start;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.transaction-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.transaction-item-date {
+  width: 20%;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  word-wrap: break-word;
+  margin: 0px 0px 0px 0px;
+  padding: 9px 0px 9px 0px;
+}
+
+.transaction-item-description {
+  width: 25%;
+  word-wrap: break-word;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  margin: 0px 0px 0px 0px;
+  padding: 9px 0px 9px 0px;
+}
+
+.transaction-item-type {
+  width: 18%;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  word-wrap: break-word;
+  margin: 0px 0px 0px 0px;
+  padding: 9px 0px 9px 0px;
+}
+
+.transaction-item-balance {
+  width: 19%;
+  border-bottom: 2px solid #000000;
+  word-wrap: break-word;
+  margin: 0px 0px 0px 0px;
+  padding: 9px 0px 9px 0px;
+  flex-grow: 1;
+}
+
+.empty-transaction {
+  color: #ffffff;
+}
+
+.credit-text {
+  color: green;
+}
+
+.debit-text {
+  color: rgb(177, 6, 6);
+}
